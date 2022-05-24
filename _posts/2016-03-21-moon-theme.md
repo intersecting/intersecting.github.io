@@ -1,4 +1,5 @@
 ---
+feature:assets/img/myself.jpg
 layout: post
 title:  "Moon Jekyll Theme"
 date:   2016-04-06
