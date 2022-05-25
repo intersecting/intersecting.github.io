@@ -1,12 +1,12 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
-comments: false
+title: About my friend
+tags: [about, myself, theme, friend]
+date: 2022-05-25
+comments: true
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<center><a href="http://intersecting.github"><b>my github</b></a> is a minimal, one column jekyll theme.</center>
 
 ## Features
 * Minimal, you can focus on your content
@@ -30,8 +30,10 @@ comments: false
 
 See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
 
-## Getting Started
+## Friend links
 
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
+To learn more about my friend [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
+{% capture images %}
+http://wenwansheng.cn/image/avatar.jpg (https//http://wenwansheng.cn)
+{% endcapture %}     
 [Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
