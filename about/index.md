@@ -35,7 +35,8 @@ See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub
 
 To learn more about my friend [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
 {% capture images %}
-[https://wenwansheng.cn/image/avatar.jpg](https://wenwansheng.cn) 
+https://wenwansheng.cn/image/avatar.jpg
+url: https://wenwansheng.cn)
 {% endcapture %}  
 {% include gallery images=images caption="friends" cols=1 %}  
 [Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
