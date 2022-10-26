@@ -53,3 +53,5 @@ https://ai.baidu.com/ai-doc/ANTIPORN/skk9093a1
 ![图片](../assets/img/image/baidu2.png)
 
 
+## 最后附上github仓库链接
+>https://github.com/intersecting/img_spider_for_baidu
