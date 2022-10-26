@@ -36,16 +36,18 @@ url的协议、ip、端口、目录成分为：https://image.baidu.com/search/ac
 ## 使用百度识图筛选（可选用）
 
 在百度识图控制台创建一个内容审核的应用，获取到AK和SK，通过AK和SK得到token，再用token访问接口
-https://ai.baidu.com/ai-doc/ANTIPORN/Jk3h6x8t2
+
+<https://ai.baidu.com/ai-doc/ANTIPORN/Jk3h6x8t2>
 
 创建应用并配置审核策略
-https://console.bce.baidu.com/
+
+<https://console.bce.baidu.com/>
 
 ![图片](../assets/img/image/Inkedbaidu3.png)
 
 获取token
 
-[https://ai.baidu.com/ai-doc/ANTIPORN/skk9093a1]
+<https://ai.baidu.com/ai-doc/ANTIPORN/skk9093a1>
 
 ![图片](../assets/img/image/baidu1.png)
 
