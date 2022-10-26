@@ -44,7 +44,8 @@ https://console.bce.baidu.com/
 ![图片](../assets/img/image/Inkedbaidu3.png)
 
 获取token
-https://ai.baidu.com/ai-doc/ANTIPORN/skk9093a1
+
+[https://ai.baidu.com/ai-doc/ANTIPORN/skk9093a1]
 
 ![图片](../assets/img/image/baidu1.png)
 
@@ -55,4 +56,4 @@ https://ai.baidu.com/ai-doc/ANTIPORN/skk9093a1
 
 ## 最后附上github仓库链接
 
-https://github.com/intersecting/img_spider_for_baidu
+<https://github.com/intersecting/img_spider_for_baidu>
