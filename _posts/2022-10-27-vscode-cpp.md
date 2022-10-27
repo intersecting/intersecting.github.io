@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "image_spider_for_baidu"
+title: "Vscode for c++"
 date: 2022-10-26
 excerpt: "一个爬取百度图片的爬虫，并可以简单筛选"
 tags: [sample post, python, spider]
