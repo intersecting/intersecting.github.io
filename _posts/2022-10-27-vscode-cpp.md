@@ -12,7 +12,7 @@ comments: true
 ### 一、在vscode安装C/C++拓展
 
 安装 VS 代码的 C/C++ 扩展。您可以通过在“扩展”视图 （Ctrl+Shift+X） 中搜索“c++”来安装 C/C++ 扩展。
-![图片](../assets/img/2022-10-27-vscode-cpp/img1.png)
+![图片](../assets/img/2022-10-27-vscode-cpp/1.png)
 ### 二、通过 MSYS2 获取最新版本的 Mingw-w64
 #### 1.先下载MSYS2
 既可以从官网下载：<https://www.msys2.org/>
@@ -22,18 +22,18 @@ comments: true
 ![图片](../assets/img/2022-10-27-vscode-cpp/2.png)
 可以修改路径，其他的全部默认就行
 下载完成后打开msys2
-![图片](../assets/img/2022-10-27-vscode-cpp/img3.png)
+![图片](../assets/img/2022-10-27-vscode-cpp/3.png)
 #### 2.通过 MSYS2 获取最新版本的 Mingw-w64
 输入命令
 >pacman -S mingw-w64-x86_64-gcc
 
-![图片](../assets/img/2022-10-27-vscode-cpp/img4.png)
+![图片](../assets/img/2022-10-27-vscode-cpp/4.png)
 #### 3.安装mingw-w64工具链
 安装明w-w64工具链（）。在 MSYS2 终端中运行该命令。接受默认设置以安装组中的所有成员
 输入命令
 >pacman -S --needed base-devel mingw-w64-x86_64-toolchain
 
-![图片](../assets/img/2022-10-27-vscode-cpp/img5.png)
+![图片](../assets/img/2022-10-27-vscode-cpp/5.png)
 #### 4.将mingw-w64文件夹的路径添加到 Windows 环境变量
 通过使用以下步骤，将明w-w64文件夹的路径添加到 Windows 环境变量：binPATH
 
@@ -51,7 +51,7 @@ g++ --version
 gdb --version
 
 得到
-![图片](../assets/img/2022-10-27-vscode-cpp/img7.png)
+![图片](../assets/img/2022-10-27-vscode-cpp/7.png)
 
 ### 三、创建一个helloworld
 
@@ -74,7 +74,7 @@ c_cpp_properties.json（编译器路径和智能感知设置）
 
 #### 2.添加源代码文件
 在“文件资源管理器”标题栏中，选择“新建文件”按钮并将文件命名为 。main.cpp
-![图片](../assets/img/2022-10-27-vscode-cpp/img8.png)
+![图片](../assets/img/2022-10-27-vscode-cpp/8.png)
 现在粘贴此源代码：
 >#include <iostream>
 >#include <vector>
@@ -94,7 +94,7 @@ c_cpp_properties.json（编译器路径和智能感知设置）
 >}
 
 如图所示
-![图片](../assets/img/2022-10-27-vscode-cpp/img9.png)
+![图片](../assets/img/2022-10-27-vscode-cpp/9.png)
 
 ### 四、运行main.cpp
 请记住，C++扩展使用计算机上安装的C++编译器来生成程序。在尝试在 VS Code 中运行和调试之前，请确保已安装C++编译器。main.cpp
@@ -102,18 +102,18 @@ c_cpp_properties.json（编译器路径和智能感知设置）
 打开，使其成为活动文件。main.cpp
 
 按编辑器右上角的按钮。
-![图片](../assets/img/2022-10-27-vscode-cpp/img10.png)
+![图片](../assets/img/2022-10-27-vscode-cpp/10.png)
 
 从系统上检测到的编译器列表中选择“C/C++： g++.exe生成和调试活动文件。
-![图片](../assets/img/2022-10-27-vscode-cpp/img11.png)
+![图片](../assets/img/2022-10-27-vscode-cpp/11.png)
 只有在首次运行 时，系统才会要求您选择编译器。此编译器将设置为文件中的“默认”编译器。
 
 生成成功后，程序的输出将显示在集成的终端中
-![图片](../assets/img/2022-10-27-vscode-cpp/img12.png)
+![图片](../assets/img/2022-10-27-vscode-cpp/12.png)
 首次运行程序时，C++扩展将创建 ，您可以在项目的文件夹中找到该扩展。 存储生成配置。tasks.json
 
 您的新文件应类似于下面的 JSON：tasks.json
-![图片](../assets/img/2022-10-27-vscode-cpp/img13.png)
+![图片](../assets/img/2022-10-27-vscode-cpp/13.png)
 
 >command:
 该设置指定要运行的程序;在这种情况下，这是g ++。该数组指定将传递给 g++ 的命令行参数。这些参数必须按编译器预期的顺序指定。
